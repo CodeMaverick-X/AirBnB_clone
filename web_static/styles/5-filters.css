@@ -1,0 +1,42 @@
+.filters {
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+
+button.filter_btn{
+	font-size: 18px;
+	background-color:  #FF5A5F;
+	color: #FFFFFF;
+	height: 48px;
+	width: 20%;
+	border: 0px;
+	border-radius: 4px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+
+}
+button.filter_btn:hover {
+	opacity: 90%;
+}
+section.filters div.locations,
+section.filters div.amenities {
+	height: 100%;
+	width: 25%;
+	display: inline-block;
+}
+section.filters div.locations {
+	border-right: 1px solid #DDDDDD;
+}
+section.filters h3 {
+	vertical-align: middle;
+	margin-top: 19px;
+}
+section.filters h3,
+section.filters h4 {
+	margin-left: 19px;
+}

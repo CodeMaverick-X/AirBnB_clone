@@ -62,3 +62,14 @@ common
 	margin: 30px auto;
 	
 }
+/* =============================
+   heading tags
+   =============================
+*/
+h3 {
+	font-weight: 600;
+}
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
