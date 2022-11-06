@@ -6,7 +6,7 @@
 	border-radius: 4px;
 }
 
-button.filter_btn{
+button.filter_btn {
 	font-size: 18px;
 	background-color:  #FF5A5F;
 	color: #FFFFFF;
@@ -27,9 +27,10 @@ section.filters div.locations,
 section.filters div.amenities {
 	height: 100%;
 	width: 25%;
+	position: relative;
 	display: inline-block;
 }
-section.filters div.locations {
+div.locations {
 	border-right: 1px solid #DDDDDD;
 }
 section.filters h3 {
@@ -39,4 +40,30 @@ section.filters h3 {
 section.filters h3,
 section.filters h4 {
 	margin-left: 35px;
+}
+
+.popover {
+	background-color: #FAFAFA;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	list-style: none;
+	position: absolute;
+	padding: 20px;
+	top: 68px;
+	display: none;
+
+}
+
+.locations .popover > li {
+	margin-bottom: 10px;
+}
+
+.popover ul {
+	list-style: none;
+	margin-left: 15px;
+}
+
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+	display: block;
 }
