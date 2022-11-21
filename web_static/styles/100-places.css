@@ -1,0 +1,153 @@
+.container .places > h1 {
+	font-size: 30px;
+}
+.container .places {
+	margin-top: 20px;
+}
+
+.container .places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+
+.container .places article h2 {
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+}
+.container .places .wrapper {
+	text-align: center;
+	margin-bottom: 70px;
+
+}
+
+.price_by_night {
+	color: #FF5A5F;
+	border: 4px solid #FF5A5F;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	border-radius: 60px;
+	float: right;
+	padding: 4px;
+	line-height: 43px;
+	text-align: center;
+}
+.information {
+	margin-top: 38px;
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display:block;
+
+}
+.wrapper .max_guest,
+.wrapper .number_rooms,
+.wrapper .number_bathrooms {
+	margin-top: 6px;
+	width: 100px;
+	padding-top: 6px;
+	height: 30px;
+	display: inline-block;
+
+	
+}
+.wrapper .text {
+	position: relative;
+	top: 29px;
+}
+
+.wrapper .max_guest {
+	background-image: url("../images/icon_group.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+
+.wrapper .number_bathrooms {
+	background-image: url("../images/icon_bath.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+
+.wrapper .number_rooms {
+	background-image: url("../images/icon_bed.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+
+.user,
+.description {
+	margin-top: 15px;
+	text-align: left;
+}
+
+.amenities {
+	margin-top: 40px;
+}
+.wrapper div.tv_icon {
+	background-image: url("../images/icon_tv.png");
+}
+.wrapper div.wifi_icon {
+	background-image: url("../images/icon_wifi.png");
+
+}
+.wrapper div.pet_icon {
+	background-image: url("../images/icon_pets.png");	
+}
+
+.wrapper div.tv_icon,
+.wrapper div.wifi_icon,
+.wrapper div.pet_icon {
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	background-size: 20px 20px;
+	vertical-align: top;
+	
+}
+.container .places .amenities p {
+	margin-left: 32px;
+	text-align: left;
+	padding-top: 3px;
+}
+
+.amenities ul,
+.reviews ul {
+	list-style-type: none;
+	text-align: left;
+
+}
+.amenities ul li {
+	height: 20px;
+}
+
+.container .places .amenities h2,
+.container .places .reviews h2 {
+	font-size: 16px;
+	text-align: left;
+	display: block;
+	padding-bottom: 8px;
+	margin-bottom: 12px;
+	border-bottom:1px solid #DDDDDD;
+
+}
+.reviews {
+	margin-top: 40px;
+}
+
+
+.container .places .reviews h3 {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+.container .places .reviews p {
+	font-size: 12px;
+}

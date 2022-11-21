@@ -24,7 +24,7 @@ button.filter_btn:hover {
 	opacity: 90%;
 }
 section.filters div.locations,
-section.filters div.amenities {
+section.filters div.amenities_1 {
 	height: 100%;
 	width: 25%;
 	position: relative;
@@ -64,6 +64,6 @@ section.filters h4 {
 }
 
 .filters .locations:hover .popover,
-.filters .amenities:hover .popover {
+.filters .amenities_1:hover .popover {
 	display: block;
 }
